@@ -16,3 +16,8 @@ body {
   color: #494d53;
   padding: 50px 20px;
 }
+
+.router-link {
+  text-decoration: none;
+  color: inherit;
+}

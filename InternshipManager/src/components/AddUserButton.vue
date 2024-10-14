@@ -1,8 +1,10 @@
 <template>
-  <button class="addUserButton">
-    <span class="plusSign">+</span>
-    <span>Add User</span>
-  </button>
+  <router-link to="/add-intern" class="router-link">
+    <button class="addUserButton">
+      <span class="plusSign">+</span>
+      <span>Add User</span>
+    </button>
+  </router-link>
 </template>
 
 <script>
