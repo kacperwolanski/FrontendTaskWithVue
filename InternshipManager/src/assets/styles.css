@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Intern';
+  src: url('./assets/fonts/Intern.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Intern', sans-serif;
+  background-color: #f5f7f9;
+  color: #494d53;
+  padding: 50px;
+}
