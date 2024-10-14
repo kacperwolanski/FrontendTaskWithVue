@@ -1,7 +1,9 @@
 <template>
   <h2>User List</h2>
-  <InputButtonContainer />
-  <InternsTable />
+  <div class="container">
+    <InputButtonContainer />
+    <InternsTable />
+  </div>
 </template>
 
 <script>
@@ -17,9 +19,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.container {
+  background-color: #fefefe;
+  padding: 20px;
+}
 h2 {
   font-weight: 400;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 </style>
