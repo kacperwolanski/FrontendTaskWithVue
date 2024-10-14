@@ -1,7 +1,15 @@
-<script setup></script>
-
 <template>
-  <main>
-    <h1>app</h1>
-  </main>
+  <div id="app">
+    <InternsList />
+  </div>
 </template>
+
+<script>
+import InternsList from './pages/internsList/InternsList.vue'
+export default {
+  name: 'App',
+  components: {
+    InternsList,
+  },
+}
+</script>
