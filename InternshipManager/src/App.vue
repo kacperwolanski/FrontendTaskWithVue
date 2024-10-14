@@ -1,15 +1,11 @@
 <template>
   <div id="app">
-    <InternsList />
+    <router-view />
   </div>
 </template>
 
 <script>
-import InternsList from './pages/internsList/InternsList.vue'
 export default {
   name: 'App',
-  components: {
-    InternsList,
-  },
 }
 </script>

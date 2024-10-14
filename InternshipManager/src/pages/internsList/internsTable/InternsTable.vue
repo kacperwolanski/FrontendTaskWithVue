@@ -7,7 +7,7 @@
         :profileImgUrl="intern.avatar"
       >
         <div class="userButtons">
-          <EditButton :onClick="() => editIntern(intern.id)" />
+          <EditButton :editedUserId="intern.id" />
           <DeleteButton :onClick="() => deleteIntern(intern.id)" />
         </div>
       </ListItem>
@@ -42,9 +42,6 @@ export default {
     async deleteIntern(id) {
       await deleteIntern(id)
       this.interns = this.interns.filter(intern => intern.id !== id)
-    },
-    editIntern(id) {
-      console.log('editing: ', id)
     },
   },
 }
