@@ -1,12 +1,12 @@
 <template>
-  <h2>User List</h2>
-  <div class="container">
+  <PageContentContainer header="User List">
     <InputButtonContainer />
     <InternsTable />
-  </div>
+  </PageContentContainer>
 </template>
 
 <script>
+import PageContentContainer from '@/components/PageContentContainer.vue'
 import InputButtonContainer from './InputButtonContainer.vue'
 import InternsTable from './internsTable/InternsTable.vue'
 
@@ -15,18 +15,9 @@ export default {
   components: {
     InputButtonContainer,
     InternsTable,
+    PageContentContainer,
   },
 }
 </script>
 
-<style scoped>
-.container {
-  background-color: #fefefe;
-  padding: 20px;
-}
-h2 {
-  font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-</style>
+<style scoped></style>
