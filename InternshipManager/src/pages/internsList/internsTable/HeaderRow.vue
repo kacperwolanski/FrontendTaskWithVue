@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .headerRow {
   display: flex;
   font-weight: bold;

@@ -12,13 +12,14 @@ export default {
   name: 'AddUserButton',
 }
 </script>
-<style>
+<style scoped>
 .plusSign {
   font-weight: 600;
   font-size: 20px;
 }
 
 .addUserButton {
+  cursor: pointer;
   border: none;
   background-color: #489474;
   color: white;

@@ -1,5 +1,5 @@
-import AddIntern from '@/pages/AddIntern.vue'
-import EditIntern from '@/pages/EditIntern.vue'
+import AddIntern from '@/pages/addIntern/AddIntern.vue'
+import EditIntern from '@/pages/editIntern/EditIntern.vue'
 import InternsList from '@/pages/internsList/InternsList.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
